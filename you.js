@@ -25,7 +25,7 @@ function openWindow(url) {
 }
 
 function proCreate() {	
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 1; i++) {
 		openWindow('index.html');
 	}
 }
