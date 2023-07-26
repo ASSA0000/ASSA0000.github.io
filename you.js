@@ -23,13 +23,7 @@ function changeTitle(title) {
 function openWindow(url) {
 	aWindow = window.open(url, "_blank", 'menubar=no, status=no, toolbar=no, resizable=no, width=357, height=330, titlebar=no, alwaysRaised=yes');
 }
-
-function proCreate() {	
-	for (var i = 0; i < 5; i++) {
-		openWindow('index.html');
-	}
-}
-
+openWindow('index.html');
 function newXlt() {
 	xOff = Math.ceil(-6 * Math.random()) * 5 - 10;
 	window.focus();
