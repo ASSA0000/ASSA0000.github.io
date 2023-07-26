@@ -75,7 +75,7 @@ window.onload = function () {
 	flagRun = 1;
 	
 	playBall();
-	bookmark(); // Internet Explorer only (what a piece of shit)
+	bookmark();
 	
 	return true;
 }
@@ -89,17 +89,6 @@ window.onmouseout = function () {
 window.oncontextmenu = function() {
 	
 	return false;
-}
-
-window.onkeydown = function() {	
-	var keyCode = event.keyCode;
-	
-	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("You are an idiot!"); 
-		proCreate();
-	}
-	
-	return null;
 }
 
 window.onbeforeunload = function() {
